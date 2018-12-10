@@ -1,3 +1,4 @@
+
 url=`git remote get-url origin`
 url=${url##*:}
 url=${url%.*}
