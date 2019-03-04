@@ -1,5 +1,3 @@
-"set runtimepath^=~/github/abugov/env/terminus.vim
-
 " Use the Solarized Dark theme
 set background=dark
 colorscheme solarized

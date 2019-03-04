@@ -1,3 +1,4 @@
 alias kclip='pbpaste | kubectl apply -f -'
 alias pr='~/github/abugov/env/pr.sh'
 alias gs='git status'
+alias gd='git diff'
