@@ -19,9 +19,7 @@
             "text": "---",
             "color": "white",
             "isWholeLine": true,
-            "backgroundColor": "green",
-            "border": "1px solid green",
-            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "#005000",
         },
     ]
 }
