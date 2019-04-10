@@ -1,0 +1,1 @@
+cp "/Users/Traiana/alexa/Library/Application Support/Code/User/settings.json" ./vs-code-settings.json

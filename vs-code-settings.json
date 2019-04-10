@@ -1,0 +1,27 @@
+{
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "git.autofetch": true,
+    "cSpell.userWords": [
+        "",
+        "abugov",
+        "okro",
+        "repo"
+    ],
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        "---",
+        {
+            "text": "---",
+            "color": "white",
+            "isWholeLine": true,
+            "backgroundColor": "green",
+            "border": "1px solid green",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+        },
+    ]
+}
