@@ -25,5 +25,10 @@
             "color": "black",
             "backgroundColor": "#00BCFF",
         },
+        {
+            "text": "!",
+            "color": "black",
+            "backgroundColor": "#ff99ff",
+        },
     ]
 }
