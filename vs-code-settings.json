@@ -30,5 +30,10 @@
             "color": "black",
             "backgroundColor": "#ff99ff",
         },
+        {
+            "text": ">",
+            "color": "black",
+            "backgroundColor": "#99ff99",
+        },
     ]
 }
