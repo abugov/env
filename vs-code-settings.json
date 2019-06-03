@@ -14,12 +14,16 @@
     "breadcrumbs.enabled": true,
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [
-        "---",
         {
             "text": "---",
             "color": "white",
             "isWholeLine": true,
             "backgroundColor": "#005000",
+        },
+        {
+            "text": "@",
+            "color": "black",
+            "backgroundColor": "#00BCFF",
         },
     ]
 }
