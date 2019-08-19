@@ -5,5 +5,5 @@ alias gs='git status'
 alias gd='git diff'
 alias gpm='git checkout master && git pull'
 alias grepc='grep -i -C 20'
-alias ob=okroboot
+alias ob='f(){ (cd $HOME/go/src/github.com/traiana/okro-bootstrap && exec okroboot $*); unset -f f; }; f'
 alias aw='argo watch'
