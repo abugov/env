@@ -1,6 +1,3 @@
-D=$(date)
-
-
 while true; do
     read -p "Push .ping-pong?" yn
     case $yn in
@@ -10,6 +7,7 @@ while true; do
     esac
 done
 
+D=$(date)
 echo $D >> .ping-pong
 
 git add .ping-pong
