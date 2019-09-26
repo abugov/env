@@ -1,5 +1,5 @@
 while true; do
-    read -p "Push .ping-pong [Yn]?" yn
+    read -p "Push tst [Yn]?" yn
     case $yn in
         [Yy]* ) break;;
         '') break;;
