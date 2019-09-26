@@ -1,5 +1,5 @@
 while true; do
-    read -p "Push tst [Yn]?" yn
+    read -p "git commit -am tst && git push [Yn]?" yn
     case $yn in
         [Yy]* ) break;;
         '') break;;
