@@ -1,9 +1,9 @@
 while true; do
-    read -p "Push .ping-pong?" yn
+    read -p "Push .ping-pong [Yn]?" yn
     case $yn in
         [Yy]* ) break;;
+        '') break;;
         [Nn]* ) exit;;
-        * ) echo "y/n ?";;
     esac
 done
 
