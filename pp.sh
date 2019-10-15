@@ -1,3 +1,6 @@
+echo "Changes to be committed:"
+git diff --name-only --cached
+
 while true; do
     read -p "Push .ping-pong [Yn]?" yn
     case $yn in
