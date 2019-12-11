@@ -11,7 +11,7 @@ while true; do
 done
 
 D=$(date)
-echo $D >> .ping-pong
+echo $D > .ping-pong
 
 git add .ping-pong
 git commit .ping-pong -m "ping-pong $D"
