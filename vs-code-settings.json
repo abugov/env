@@ -21,6 +21,12 @@
             "backgroundColor": "#005000",
         },
         {
+            "text": "!!!",
+            "color": "black",
+            "isWholeLine": true,
+            "backgroundColor": "#ff99ff",
+        },
+        {
             "text": "@",
             "color": "black",
             "backgroundColor": "#00BCFF",
@@ -35,5 +41,6 @@
             "color": "black",
             "backgroundColor": "#99ff99",
         },
-    ]
+    ],
+    "workbench.colorTheme": "Visual Studio Light"
 }
