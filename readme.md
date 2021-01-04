@@ -13,3 +13,7 @@ vim ~/.bash_profile
 source <(kubectl completion bash | sed 's/kubectl/k/g');
 source $HOME/myenv/fubectl.source;
 
+### tmux
+ln -sf $HOME/github/abugov/env/tmux.conf $HOME/.tmux.conf
+git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+the run tmux and press ~ and then shift+i (it will "freeze" for like 20-30s while installing plugins, one-time thing)
