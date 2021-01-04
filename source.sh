@@ -9,4 +9,4 @@ source $HOME/.fzf.extras;
 
 source <(kubectl completion bash | sed 's/kubectl/k/g');
 
-
+source <(okroadm completion bash)
