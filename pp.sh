@@ -1,7 +1,8 @@
 echo "Changes to be committed:"
 git diff --name-only --cached
 
-while true; do
+if [ "$1" != "-y" ]; then
+  while true; do
     read -p "Push .ping-pong [Yn]?" yn
     case $yn in
         [Yy]* ) break;;
@@ -9,6 +10,8 @@ while true; do
         [Nn]* ) exit;;
     esac
 done
+fi
+
 
 D=$(date)
 echo $D > .ping-pong

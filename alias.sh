@@ -11,3 +11,4 @@ alias ob='f(){ (cd $GOPATH/src/github.com/traiana/okro-bootstrap && exec okroboo
 alias aw='argo watch'
 alias wifi='sudo ifconfig en0 up && sudo ifconfig en8 down'
 alias office='sudo ifconfig en0 down && sudo ifconfig en8 up'
+alias mr='mr -d ~/ -j 5 '
