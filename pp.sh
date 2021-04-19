@@ -1,3 +1,10 @@
+DIR=
+
+# optionaly switch to a different dir
+[[ -d "$1" ]] && DIR=$1
+[[ -d "$2" ]] && DIR=$2
+[[ ! -z "$DIR" ]] && cd $DIR && pwd
+
 echo "Changes to be committed:"
 git diff --name-only --cached
 
