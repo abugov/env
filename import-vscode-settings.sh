@@ -1,1 +1,1 @@
-cp "/Users/Traiana/alexa/Library/Application Support/Code/User/settings.json" ./vs-code-settings.json
+cp ./vs-code-settings.json "$HOME/Library/Application Support/Code/User/settings.json"
