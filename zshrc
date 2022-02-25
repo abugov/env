@@ -11,14 +11,23 @@ alias wifi='sudo ifconfig en0 up && sudo ifconfig en8 down'
 alias office='sudo ifconfig en0 down && sudo ifconfig en8 up'
 alias mr='mr -d ~/ -j 5 -q '
 
-# autojump
-#source $HOME/.autojump/etc/profile.d/autojump.sh
-[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+source $HOME/github/abugov/env/zsh_prompt.sh;
+
+# need to install autojump for this: https://github.com/wting/autojump
+source /opt/homebrew/etc/profile.d/autojump.sh;
 
 source $HOME/github/abugov/env/fubectl.source;
 
-#source $HOME/.fzf.bash;
-#source $HOME/.fzf.extras;
+# wget -P $HOME/ https://raw.githubusercontent.com/xwmx/dotfiles/master/home/.fzf.zsh
+source $HOME/.fzf.zsh;
+
+
+
+
+# autojump
+#source $HOME/.autojump/etc/profile.d/autojump.sh
+###[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+
 
 #source <(kubectl completion zsh | sed 's/kubectl/k/g');
 
